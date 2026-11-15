@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large raw datasets & split transactions (reproducible via python -m src.data.loader)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/clean_transactions.csv
+data/processed/train.csv
+data/processed/val.csv
+data/processed/test.csv
+
+# Pytest & caches
+.pytest_cache/

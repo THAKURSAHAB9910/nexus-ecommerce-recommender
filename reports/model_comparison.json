@@ -1,0 +1,85 @@
+{
+  "evaluation_protocol": "Strict Chronological Ranking on Held-Out Test Data",
+  "warm_cohort_size": 300,
+  "models_evaluated": {
+    "Popularity Baseline": {
+      "K=5": {
+        "Precision": 0.0827,
+        "Recall": 0.0181,
+        "NDCG": 0.088,
+        "CatalogCoverage_Pct": 0.13,
+        "CategoryDiversity": 0.8,
+        "Novelty_Bits": 7.9021
+      },
+      "K=10": {
+        "Precision": 0.0703,
+        "Recall": 0.0284,
+        "NDCG": 0.0799,
+        "CatalogCoverage_Pct": 0.26,
+        "CategoryDiversity": 0.6889,
+        "Novelty_Bits": 8.1445
+      }
+    },
+    "Content-Based (TF-IDF)": {
+      "K=5": {
+        "Precision": 0.0273,
+        "Recall": 0.0083,
+        "NDCG": 0.0285,
+        "CatalogCoverage_Pct": 11.78,
+        "CategoryDiversity": 0.2163,
+        "Novelty_Bits": 12.7634
+      },
+      "K=10": {
+        "Precision": 0.0303,
+        "Recall": 0.0202,
+        "NDCG": 0.0322,
+        "CatalogCoverage_Pct": 18.58,
+        "CategoryDiversity": 0.2529,
+        "Novelty_Bits": 12.6814
+      }
+    },
+    "Collaborative (SVD)": {
+      "K=5": {
+        "Precision": 0.0533,
+        "Recall": 0.0132,
+        "NDCG": 0.0552,
+        "CatalogCoverage_Pct": 22.97,
+        "CategoryDiversity": 0.609,
+        "Novelty_Bits": 11.5375
+      },
+      "K=10": {
+        "Precision": 0.0427,
+        "Recall": 0.0208,
+        "NDCG": 0.0486,
+        "CatalogCoverage_Pct": 36.29,
+        "CategoryDiversity": 0.6527,
+        "Novelty_Bits": 11.7957
+      }
+    },
+    "Adaptive Hybrid": {
+      "K=5": {
+        "Precision": 0.0533,
+        "Recall": 0.0133,
+        "NDCG": 0.0561,
+        "CatalogCoverage_Pct": 21.31,
+        "CategoryDiversity": 0.4987,
+        "Novelty_Bits": 11.2699
+      },
+      "K=10": {
+        "Precision": 0.0437,
+        "Recall": 0.0246,
+        "NDCG": 0.0499,
+        "CatalogCoverage_Pct": 34.68,
+        "CategoryDiversity": 0.5751,
+        "Novelty_Bits": 11.5779
+      }
+    }
+  },
+  "cold_start_evaluation": {
+    "total_cold_start_users": 170,
+    "fallback_mechanism": "Popularity Fallback Router",
+    "Precision@10": 0.0488,
+    "Recall@10": 0.0265,
+    "NDCG@10": 0.0561
+  }
+}

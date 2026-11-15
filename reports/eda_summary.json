@@ -1,0 +1,49 @@
+{
+  "total_transactions": 527930,
+  "customer_identified_transactions": 396470,
+  "unique_customers": 4334,
+  "unique_products_in_catalog": 3913,
+  "unique_products_interacted": 3660,
+  "unique_user_item_pairs": 266250,
+  "user_item_matrix_sparsity_pct": 98.3215,
+  "user_activity": {
+    "mean_interactions": 91.48,
+    "median_interactions": 41.0,
+    "p25": 17.0,
+    "p75": 100.0,
+    "min": 1,
+    "max": 7838
+  },
+  "item_popularity": {
+    "mean_interactions": 108.33,
+    "median_interactions": 49.0,
+    "p25": 12.0,
+    "p75": 135.0,
+    "min": 1,
+    "max": 2035,
+    "gini_coefficient": 0.6378,
+    "sales_share_top_20_pct_items": 65.57
+  },
+  "category_distribution_catalog": {
+    "Gifts & Novelties": 1045,
+    "Home Decor & Lighting": 946,
+    "Bags & Storage": 565,
+    "Kitchen & Dining": 388,
+    "Stationery & Craft": 322,
+    "Apparel & Accessories": 321,
+    "Seasonal & Festive": 228,
+    "Toys & Games": 58,
+    "Bath & Wellness": 40
+  },
+  "category_volume_sold": {
+    "Apparel & Accessories": 81026,
+    "Bags & Storage": 1342207,
+    "Bath & Wellness": 31981,
+    "Gifts & Novelties": 926037,
+    "Home Decor & Lighting": 1367527,
+    "Kitchen & Dining": 483218,
+    "Seasonal & Festive": 272277,
+    "Stationery & Craft": 596356,
+    "Toys & Games": 56859
+  }
+}

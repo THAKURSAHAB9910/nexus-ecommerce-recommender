@@ -1,0 +1,30 @@
+{
+  "strategy": "Strict Chronological Split (No Future Leakage)",
+  "train_ratio": 0.8,
+  "val_ratio": 0.1,
+  "test_ratio": 0.1,
+  "timestamps": {
+    "dataset_start": "2010-12-01 08:26:00",
+    "train_end_val_start": "2011-11-02 12:26:00",
+    "val_end_test_start": "2011-11-21 09:11:00",
+    "dataset_end": "2011-12-09 12:50:00"
+  },
+  "record_counts": {
+    "total_identified_interactions": 396470,
+    "train_interactions": 317171,
+    "val_interactions": 39640,
+    "test_interactions": 39659
+  },
+  "user_cohorts": {
+    "train_unique_users": 3989,
+    "val_unique_users": 1201,
+    "test_unique_users": 1147,
+    "warm_eval_users_test": 977,
+    "cold_start_users_test": 170
+  },
+  "item_cohorts": {
+    "train_unique_items": 3610,
+    "test_unique_items": 2514,
+    "cold_start_items_test": 39
+  }
+}
