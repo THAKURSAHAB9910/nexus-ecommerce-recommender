@@ -190,11 +190,4 @@ Deconstructs recommendations into 4 verifiable evidence layers:
 - **🏷️ Category Alignment:** Customer historical spend and category affinity percentage.
 - **📈 Catalog Popularity Rank:** Percentile ranking and tier (*Best-Seller*, *Mid-Tier*, *Long-Tail*).
 
----
 
-## 📜 Documentation & Interview Prep
-- **Technical Report:** [`reports/TECHNICAL_REPORT.md`](file:///C:/Users/Vishe/Downloads/vishac/reports/TECHNICAL_REPORT.md)
-- **Live Demo & Interview Guide:** [`reports/INTERVIEW_PREP.md`](file:///C:/Users/Vishe/Downloads/vishac/reports/INTERVIEW_PREP.md)
-
----
-*Built with production-grade engineering rigor.*

@@ -1,7 +1,5 @@
 # NEXUS: Intelligent E-Commerce Product Recommendation Engine
-## Comprehensive Technical Report & Methodological Audit
-**Target Organization:** ALGIONS AI LABS PRIVATE LIMITED  
-**Role:** AI & Machine Learning Internship Assessment  
+## Comprehensive Technical Architecture Report & Empirical Audit
 **Project Identity:** *NEXUS – Discover Beyond Popularity*  
 **Date:** November 2026  
 

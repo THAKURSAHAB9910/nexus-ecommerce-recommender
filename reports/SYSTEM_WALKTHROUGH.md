@@ -1,6 +1,4 @@
-# NEXUS: Live Interview & Technical Demonstration Guide
-**Candidate Assessment Preparation | ALGIONS AI LABS PRIVATE LIMITED**  
-**Role:** AI & Machine Learning Engineering Intern  
+# NEXUS: Technical Demonstration & System Walkthrough Guide
 **Project:** NEXUS – Intelligent E-Commerce Product Recommendation Engine  
 
 ---
