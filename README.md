@@ -94,9 +94,7 @@ nexus-ecommerce-recommender/
 │   └── hybrid_model.joblib
 ├── notebooks/                # Executed Jupyter walkthrough with rich outputs
 │   └── nexus_walkthrough.ipynb
-├── reports/                  # Detailed audits, technical reports & figures
-│   ├── submission_form_entries.md            # Official internship submission form package
-│   ├── technical_report.md                   # Comprehensive 18-section technical report
+├── reports/                  # Detailed audits, statistical analysis & figures
 │   ├── feature_leakage_audit.md              # Feature availability & ethical safety audit
 │   ├── eda_summary.md                        # Dataset statistics, sparsity & long-tail analysis
 │   ├── model_comparison.json                # Standardized empirical benchmark results
@@ -216,10 +214,8 @@ streamlit run app/main.py
 
 ---
 
-## 7. Submission Package & Documentation Directory
+## 7. Audit & Exploration Reports
 
 Detailed reports are provided in the [`reports/`](reports/) directory:
-* **[Official Submission Form Entries](reports/submission_form_entries.md):** Pre-filled submission form entries ready to paste into the submission portal.
-* **[Comprehensive Technical Report](reports/technical_report.md):** 18-section architecture report detailing problem formulation, modeling, and limitations.
 * **[Feature Availability & Leakage Audit](reports/feature_leakage_audit.md):** Formal audit of temporal boundaries and privacy protection.
 * **[Exploratory Data Analysis Report](reports/eda_summary.md):** Statistical analysis of dataset sparsity, heavy-tail distributions, and catalog categories.
