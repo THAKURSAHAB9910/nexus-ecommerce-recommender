@@ -99,7 +99,6 @@ nexus-ecommerce-recommender/
 │   ├── technical_report.md                   # Comprehensive 18-section technical report
 │   ├── feature_leakage_audit.md              # Feature availability & ethical safety audit
 │   ├── eda_summary.md                        # Dataset statistics, sparsity & long-tail analysis
-│   ├── demo_walkthrough_and_interview_prep.md# 3-5 min video script & interview guide
 │   ├── model_comparison.json                # Standardized empirical benchmark results
 │   ├── eda_summary.json                     # JSON statistical profiling
 │   └── figures/                              # Generated high-resolution EDA plots
@@ -224,4 +223,3 @@ Detailed reports are provided in the [`reports/`](reports/) directory:
 * **[Comprehensive Technical Report](reports/technical_report.md):** 18-section architecture report detailing problem formulation, modeling, and limitations.
 * **[Feature Availability & Leakage Audit](reports/feature_leakage_audit.md):** Formal audit of temporal boundaries and privacy protection.
 * **[Exploratory Data Analysis Report](reports/eda_summary.md):** Statistical analysis of dataset sparsity, heavy-tail distributions, and catalog categories.
-* **[Demonstration & Walkthrough Guide](reports/demo_walkthrough_and_interview_prep.md):** 3–5 minute presentation guide and live technical walkthrough script.

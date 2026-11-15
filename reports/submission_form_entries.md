@@ -27,7 +27,6 @@
 * **Demonstration Mode:** Local interactive deployment with 1-click execution scripts and reproduction instructions.
 * **Streamlit Dashboard URL (Local):** `http://localhost:8502` (or `http://localhost:8501`)
 * **FastAPI Backend Swagger Docs (Local):** `http://127.0.0.1:8000/docs`
-* **3–5 Minute Video Walkthrough Script:** Documented in [reports/demo_walkthrough_and_interview_prep.md](https://github.com/THAKURSAHAB9910/nexus-ecommerce-recommender/blob/main/reports/demo_walkthrough_and_interview_prep.md)
 * **Live Video URL:** *[Paste your Loom / Google Drive / YouTube unlisted recording link here]*
 
 ---
