@@ -212,10 +212,4 @@ streamlit run app/main.py
   4. **📈 Dataset & EDA Dashboard:** Matrix sparsity (98.32%), Pareto 80/20 curves, and category breakdowns.
   5. **🛡️ Leakage-Free Architecture:** Chronological split barrier verification and live cold-start simulator.
 
----
 
-## 7. Audit & Exploration Reports
-
-Detailed reports are provided in the [`reports/`](reports/) directory:
-* **[Feature Availability & Leakage Audit](reports/feature_leakage_audit.md):** Formal audit of temporal boundaries and privacy protection.
-* **[Exploratory Data Analysis Report](reports/eda_summary.md):** Statistical analysis of dataset sparsity, heavy-tail distributions, and catalog categories.
