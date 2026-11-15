@@ -34,7 +34,7 @@
 | :--- | :--- |
 | **Repository URL** | `https://github.com/THAKURSAHAB9910/nexus-ecommerce-recommender` |
 | **Primary Branch** | `main` |
-| **Final Commit ID** | `511f3f6289a08d65c9a1baacd4ded466daabd2ac` *(or latest commit)* |
+| **Final Commit ID** | `b12246e8ce623303f5ecef6d0e6de3eeb4233db3` |
 | **Repository Visibility** | Public (Free reviewer access without authentication barrier) |
 
 ---
